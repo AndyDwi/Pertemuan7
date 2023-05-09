@@ -15,13 +15,13 @@ class MyApp extends StatelessWidget {
         ),
         body: Padding(
           padding:
-              EdgeInsets.all(10.0), // Tambahkan padding 10 pada seluruh sisi
+              EdgeInsets.all(10.0), 
           child: GridView.count(
             crossAxisCount: 3,
             mainAxisSpacing:
-                10.0, // Tambahkan jarak 10 antar kotak secara vertikal
+                10.0,
             crossAxisSpacing:
-                10.0, // Tambahkan jarak 10 antar kotak secara horizontal
+                10.0,
             children: [
               buildGridItem('Kotak 1', Color.fromARGB(255, 255, 23, 23)),
               buildGridItem('Kotak 2', Color.fromARGB(255, 255, 76, 44)),
